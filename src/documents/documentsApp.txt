@@ -1,0 +1,96 @@
+
+MODULOS DO APP 
+==============
+
+     App.js              (revisar)
+     Home.js             (OK)
+     Help.js             (revisar)
+     ConfigApp.js        (OK)
+
+     ListGroups.js       (OK)
+     EditGroup.js        (OK)
+
+(OK) MenuGroup.js        
+(OK) ListMembers.js      
+(OK) EditMember.js       
+
+     FormGroup.js
+     TitleGroups.js
+     InitialDate.js
+     DescriptionFree.js
+     EditDescription.js
+
+(OK) ListForm.js
+(OK) ViewList.js
+
+Components
+----------
+
+    actions.js
+    reducers.js
+    appReducers.js
+
+    colors.js
+    languageBR.js
+    languageUS.js
+
+    functionDate.js
+    functionOther.js
+
+    Button.js           (OK)
+    ButtonList.js
+    ButtonType.js
+    SelectList.js
+
+REDUX STORE 
+===========
+
+    version: '1.0.0'
+    distribution: 'PRO'
+    language: 'br'
+
+    idGroup: 0
+    indGroup: 0    
+    groups: []
+    members: []               
+
+Array groups
+============
+
+    id: 0
+    nameGroup: 'Grupo ...'
+    singularName: 'Membro'
+    pluralName: 'Membros'
+    titleForm: 'Grupos do ...'
+    numberForm: 4
+    typeForm: 0                           
+    initialDate: moment(new Date())
+    freeDescription: [ { id: 1, name: '' } ]                                   
+    showResponsible: true   
+    qtRecords: 0 
+    qtMembers: 0               
+
+Array members
+=============
+
+    group: 0,
+    id: 0,
+    name: '',
+    man: 0,              
+    woman: 0,
+    active: true,
+
+==================================================
+
+ACTIONS REDUCERS
+================
+
+    updateAppLanguage( language )
+
+    groupSelected( id )
+    groupInsert( name, singular, plural )
+    groupUpdate( id, name, singular, plural )
+    groupDelete( id )
+
+
+

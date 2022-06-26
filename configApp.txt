@@ -1,0 +1,37 @@
+
+
+
+ListGroups.js
+=============
+
+
+state
+-----
+
+
+
+ws (variaveis trabalho)
+-----------------------
+Parametros:
+   amountGroups: 1
+   typeForm: 'SG' 
+Guardas:
+   gdGroups: []
+   gdGroup: {}
+
+models
+------
+
+modelGroup
+   id: 0
+   name: ''
+   amount: 0
+
+modelList
+   id: 0
+   group: 0
+   order: 0
+   name: ''
+   person: 0
+
+
